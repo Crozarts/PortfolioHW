@@ -1,7 +1,10 @@
-/* .jumbotron {
-    background-image: url("assets/image1.jpg");
-    background-size: cover;
-  } */
+body {
+    background-color: rgb(34, 34, 34);
+}
+
+.jumbotron{
+    background-color: rgb(34, 34, 34); 
+}
 
 .jumbotron h1 {
     color: #ffffff
