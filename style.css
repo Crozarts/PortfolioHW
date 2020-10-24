@@ -1,7 +1,11 @@
 body {
-    background-color: rgb(34, 34, 34);
-}
-
+    background-image: url("assets/mountainside-scenery-with-large-green-pine-forest-in-jasper-national-park-alberta-canada.jpg");
+  }
+  
+  h1, h2, p {
+      color: #ffffff
+  }
+  
 .jumbotron{
     background-color: rgb(34, 34, 34); 
 }
@@ -10,10 +14,10 @@ body {
     color: #ffffff
 }
 
-h1, h2, p {
-    color: #ffffff
-}
-
 .img-thumbnail {
     width: 100%;
    }
+
+.name, .email, .subject, .message {
+    color: #ffffff;
+}
