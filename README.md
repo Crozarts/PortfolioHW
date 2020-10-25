@@ -21,4 +21,4 @@ Our homework assignment was to create a Responsive portfolio webpage that is com
 
 ### Feedback
 
-This assignment was very hard to complete and a lot of the Bootstrap elements i did not understand fully yet. However, the 
+This assignment was very hard to complete and a lot of the Bootstrap elements I did not understand fully. However, Bootstraps website helped greatly while trying to figure it out.  
