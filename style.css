@@ -1,10 +1,10 @@
 body {
-    background-image: url("assets/mountainside-scenery-with-large-green-pine-forest-in-jasper-national-park-alberta-canada.jpg");
+    background-image: url("assets/smokey_trees.jpeg");
   }
   
-  h1, h2, p {
+ h1, h2, p, .name, .email, .subject, .message {
     font-family: Arial, Helvetica, sans-serif;
-    color: #ffffff
+    color: #000000
   }
   
 .jumbotron{
@@ -19,7 +19,3 @@ body {
 .img-thumbnail {
     width: 100%;
    }
-
-.name, .email, .subject, .message {
-    color: #ffffff;
-}
