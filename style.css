@@ -1,21 +1,22 @@
+/* Background Image */
 body {
     background-image: url("assets/smokey_trees.jpeg");
-  }
-  
- h1, h2, p, .name, .email, .subject, .message {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #000000
-  }
-  
-.jumbotron{
-    background-color: rgb(34, 34, 34); 
 }
-
+/* Jumbotron Backgound Color */
+ .jumbotron {
+    background-color:transparent; 
+}
+/* Jumbotron Text Color White */
 .jumbotron h1 {
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff
 }
-
+ /*Content Text Color Black  */
+ h1, h2, p, .name, .email, .subject, .message {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000
+}
+/* Thumbnail Photo Size */
 .img-thumbnail {
     width: 100%;
-   }
+}
