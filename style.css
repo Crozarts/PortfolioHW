@@ -1,6 +1,7 @@
 /* Background Image */
 body {
     background-image: url("assets/smokey_trees.jpeg");
+    background-repeat: round;
 }
 /* Jumbotron Backgound Color */
  .jumbotron {
@@ -9,14 +10,23 @@ body {
 /* Jumbotron Text Color White */
 .jumbotron h1 {
     font-family: Arial, Helvetica, sans-serif;
-    color: #ffffff
+    color: #ffffff;
 }
  /*Content Text Color Black  */
- h1, h2, p, .name, .email, .subject, .message {
+ strong, h1, h2, p, .name, .email, .subject, .message {
     font-family: Arial, Helvetica, sans-serif;
-    color: #000000
+    color: #ffffff;
 }
 /* Thumbnail Photo Size */
 .img-thumbnail {
     width: 100%;
 }
+/* @media screen and (max-width: 168px) {
+    body {
+        background-color: #000000;
+     }
+    .wrapper {    
+        width: 100%;
+        padding: 20px;
+    }
+} */
