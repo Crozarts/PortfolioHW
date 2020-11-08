@@ -1,7 +1,8 @@
 /* Background Image */
 body {
-    background-image: url("assets/style/style.css");
-    background-repeat: round;
+    background-image: url("../images/smokey_trees.jpeg");
+    background-color: black;
+    /* background-repeat: round; */
 }
 /* Jumbotron Backgound Color */
  .jumbotron {
@@ -20,6 +21,18 @@ body {
 /* Thumbnail Photo Size */
 .img-thumbnail {
     width: 100%;
+}
+
+#aboutMe { 
+    padding-left: 20px;
+}
+
+#example1 {
+    padding-top: 20px;
+}
+
+#aboutMeContainer, #example1, #contactInfoSide {
+    background-color: rgba(55, 54, 54, 0.57);
 }
 /* @media screen and (max-width: 168px) {
     body {
