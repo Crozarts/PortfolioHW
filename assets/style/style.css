@@ -13,11 +13,12 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
 }
- /*Content Text Color Black  */
+ /*Content Text Color White  */
  strong, h1, h2, p, .name, .email, .subject, .message {
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
 }
+
 /* Thumbnail Photo Size */
 .img-thumbnail {
     width: 100%;
@@ -31,7 +32,7 @@ body {
     padding-top: 20px;
 }
 
-#aboutMeContainer, #example1, #contactInfoSide {
+#aboutMeContainer, #example1, #contactContent {
     background-color: rgba(55, 54, 54, 0.57);
 }
 /* @media screen and (max-width: 168px) {
