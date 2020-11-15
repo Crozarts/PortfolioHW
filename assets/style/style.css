@@ -1,17 +1,12 @@
 /* Background Image */
 body {
-    background-image: url("../images/smokey_trees.jpeg");
+    background-image: url("../images/tile_texturedBG.jpg");
     background-color: black;
     /* background-repeat: round; */
 }
-/* Jumbotron Backgound Color */
- .jumbotron {
-    background-color:transparent; 
-}
-/* Jumbotron Text Color White */
-.jumbotron h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #ffffff;
+
+#header {
+    padding-top: 20px;
 }
  /*Content Text Color White  */
  strong, h1, h2, p, .name, .email, .subject, .message {
@@ -19,22 +14,25 @@ body {
     color: #ffffff;
 }
 
-/* Thumbnail Photo Size */
-.img-thumbnail {
-    width: 100%;
-}
+/* Thumbnail Photo Size
+.img-thumbnail {ß
+    width: 200px;
+} */
 
 #aboutMe { 
     padding-left: 20px;
 }
 
-#example1 {
+#example_container, #example_container2, #example_container3 {
     padding-top: 20px;
+    padding-left: 20px;
+    background-color: rgba(0, 0, 0, 0.535);
 }
 
-#aboutMeContainer, #example1, #contactContent {
-    background-color: rgba(55, 54, 54, 0.57);
+#aboutMeContainer, #contactContent {
+    background-color: rgb(0, 0, 0);
 }
+
 /* @media screen and (max-width: 168px) {
     body {
         background-color: #000000;
